@@ -49,15 +49,16 @@ html {
     padding: 0 1.5rem;
 }
 .NavigationBar li:first-of-type {
-    color: gold;
+    color: #daa520;
 }
 .NavigationBar li:first-of-type a {
-    color: gold;
+    color: #daa520;
 }
 .NavigationBar li:first-of-type a:visited {
-    color: gold;
+    color: #daa520;
 }
 .NavigationBarButton {
+    background: #f9bdbd;
     border: 1px solid #222;
     border-radius: 0.3rem;
     padding: 0.5rem 2rem;
@@ -65,3 +66,81 @@ html {
 }
 
 /****************************************************************************/
+.Hero {
+    min-height: 100vh;
+    background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0) 100%
+        ),
+        #f3c552 no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.HeroContainer {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 40px 80px 0px #00000040;
+
+    padding: 3vh 2vw;
+}
+/*--------------------------------------------------------------------------*/
+.HeroContainerText {
+    width: 35%;
+    padding: 10%;
+}
+.HeroContainerText h1 {
+    font-size: 3.9rem;
+    padding-bottom: 2vh;
+}
+.HeroContainerText h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.HeroContainerText a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #daa520;
+    font-weight: 400;
+    padding: 1vh 1vw;
+}
+.HeroContainerText a:visited {
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------*/
+.HeroContainerImages {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    right: 50%;
+}
+.HeroContainerBlock {
+    display: inline-block;
+    height: 60vh;
+    width: 25%;
+    background: #f9bdbd;
+    position: absolute;
+    top: 0px;
+    right: 0%;
+}
+.HeroContainerLogo {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    height: 30%;
+    box-shadow: none;
+    border: none;
+}
+
+/*--------------------------------------------------------------------------*/
+.Footer {
+    width: 100vw;
+}
+.FooterSubscription {
+    display: flex;
+}
