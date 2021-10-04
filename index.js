@@ -22,6 +22,12 @@ const server = http.createServer((req, res) => {
         case '.png':
             mimeType = 'image/png';
             break;
+        case '.webp':
+            mimeType = 'image/webp';
+            break;
+        case '.svg':
+            mimeType = 'image/svg+xml';
+            break;
         case '.css':
             mimeType = 'text/css';
             break;

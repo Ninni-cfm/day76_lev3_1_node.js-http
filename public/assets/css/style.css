@@ -1,0 +1,67 @@
+/****************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+/****************************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/****************************************************************************/
+html {
+    font-family: "Nunito", sans-serif;
+}
+
+/****************************************************************************/
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.Navigation a {
+    text-decoration: none;
+    color: #222;
+}
+.Navigation a:visited {
+    text-decoration: none;
+    color: #222;
+}
+.NavigationBar {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.NavigationLogo {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    color: #3e3f43;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.25rem;
+}
+.NavigationLogo:visited {
+    color: #3e3f43;
+}
+.NavigationLogo img {
+    width: 1.5rem;
+}
+.NavigationBar li {
+    padding: 0 1.5rem;
+}
+.NavigationBar li:first-of-type {
+    color: gold;
+}
+.NavigationBar li:first-of-type a {
+    color: gold;
+}
+.NavigationBar li:first-of-type a:visited {
+    color: gold;
+}
+.NavigationBarButton {
+    border: 1px solid #222;
+    border-radius: 0.3rem;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+}
+
+/****************************************************************************/
